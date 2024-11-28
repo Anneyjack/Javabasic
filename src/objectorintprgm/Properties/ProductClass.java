@@ -5,11 +5,10 @@ public class ProductClass {
 ProductProperties productProperties = new ProductProperties();
 productProperties.name =" Test";
         productProperties.grade ='C';
-        System.out.println ("Nam of the product");
+        System.out.println ("Name of the product");
 
 
     }
-
 
 
 

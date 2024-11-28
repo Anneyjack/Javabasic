@@ -1,12 +1,12 @@
-package Constractor;
+package constructor;
 
 public class Main {
     public static void main(String[] args) {
 
-        ElectricVehical electricVehicle = new ElectricVehical();
+        ElectricVehicle electricVehicle = new ElectricVehicle();
         electricVehicle.myMethod();
 
-       ElectricVehical electricVehiclepara = new ElectricVehical( "Tesla",12345);
+       ElectricVehicle electricVehiclepara = new ElectricVehicle( "Tesla",12345L);
        System.out.println(electricVehiclepara.vin);
        System.out.println(electricVehiclepara.brand);
 
